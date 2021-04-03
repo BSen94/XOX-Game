@@ -1,103 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content" android:id="@+id/game_board_layout"
              android:layout_gravity="center" android:onClick="clickImage">
 
     <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/row1">
         <TableRow
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent" android:id="@+id/column11"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView11" android:minHeight="75dp" android:minWidth="75dp" android:maxHeight="75dp"
-                    android:onClick="clickImage" android:tag="11"/>
+                    android:id="@+id/imageView11" android:minHeight="75dp" android:minWidth="75dp"
+                    android:maxHeight="75dp"
+                    android:onClick="clickImage" android:tag="11" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column12"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView12" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="12"/>
+                    android:onClick="clickImage" android:tag="12" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column13"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView13" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="13"/>
+                    android:onClick="clickImage" android:tag="13" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
     </TableRow>
     <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/row2">
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column21"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView21" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="21"/>
+                    android:onClick="clickImage" android:tag="21" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column22"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView22" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="22"/>
+                    android:onClick="clickImage" android:tag="22" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column23"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView23" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="23"/>
+                    android:onClick="clickImage" android:tag="23" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
     </TableRow>
     <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/row3">
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column31"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView31" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="31"/>
+                    android:onClick="clickImage" android:tag="31" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column32"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView32" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="32"/>
+                    android:onClick="clickImage" android:tag="32" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/column33"
-                android:foreground="@drawable/border_layout">
+                android:foreground="@drawable/border_layout" android:gravity="center">
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView33" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="33"/>
+                    android:onClick="clickImage" android:tag="33" android:maxHeight="75dp" android:maxWidth="75dp"
+                    android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true"/>
         </TableRow>
     </TableRow>
 </TableLayout>
