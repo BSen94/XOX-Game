@@ -12,8 +12,9 @@
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView11" android:minHeight="75dp" android:minWidth="75dp" android:maxHeight="75dp"
-                    android:onClick="clickImage" android:tag="11"/>
+                    android:id="@+id/imageView11" android:minHeight="75dp" android:minWidth="75dp"
+                    android:maxHeight="75dp"
+                    android:onClick="clickImage" android:tag="11" android:maxWidth="75dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -23,7 +24,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView12" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="12"/>
+                    android:onClick="clickImage" android:tag="12" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -33,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView13" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="13"/>
+                    android:onClick="clickImage" android:tag="13" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
     </TableRow>
     <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/row2">
@@ -45,7 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView21" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="21"/>
+                    android:onClick="clickImage" android:tag="21" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -55,7 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView22" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="22"/>
+                    android:onClick="clickImage" android:tag="22" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -65,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView23" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="23"/>
+                    android:onClick="clickImage" android:tag="23" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
     </TableRow>
     <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/row3">
@@ -77,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView31" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="31"/>
+                    android:onClick="clickImage" android:tag="31" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -87,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView32" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="32"/>
+                    android:onClick="clickImage" android:tag="32" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -97,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView33" android:minHeight="75dp" android:minWidth="75dp"
-                    android:onClick="clickImage" android:tag="33"/>
+                    android:onClick="clickImage" android:tag="33" android:maxHeight="75dp" android:maxWidth="75dp"/>
         </TableRow>
     </TableRow>
 </TableLayout>
