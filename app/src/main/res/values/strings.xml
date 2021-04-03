@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">XOX Game</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_button">Welcome to XOX Game</string>
+    <string name="current_player">%s is playing</string>
+    <string name="current_turn">%d turn</string>
+</resources>

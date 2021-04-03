@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XOX Oyun</string>
+    <string name="welcome">Hoşgeldiniz</string>
+    <string name="welcome_button">Oyunu başlatmak için buraya basınız</string>
+    <string name="current_player">Şuanki oyuncu %s</string>
+    <string name="current_turn">Sıra %d</string>
+</resources>
