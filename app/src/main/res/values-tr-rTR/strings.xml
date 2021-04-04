@@ -6,5 +6,5 @@
     <string name="current_player">Şuanki oyuncu %s</string>
     <string name="current_turn">Sıra %d</string>
     <string name="game_draw">Oyun berabere kaldı!!!</string>
-    <string name="game_finished">%s oyunu kazandı!!!</string>
+    <string name="game_finished">%s oyunu kazandı, puanı %.4f!!!</string>
 </resources>

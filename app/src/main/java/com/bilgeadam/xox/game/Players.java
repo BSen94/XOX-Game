@@ -2,18 +2,23 @@ package com.bilgeadam.xox.game;
 
 import com.bilgeadam.xox.R;
 
+import java.util.Date;
+
 public enum Players {
     X(1, R.drawable.x),
     O(2, R.drawable.o);
 
     private final int value, drawable;
     private int currentTurn;
+    private Float score;
+    private long totalTurnTime;
+    private Date turnStartTime;
 
 
     Players(int value, int drawable) {
         this.value = value;
         this.drawable = drawable;
-        currentTurn = 1;
+        resetParameters();
     }
 
     public int getDrawable() {
@@ -31,6 +36,12 @@ public enum Players {
         this.currentTurn++;
     }
 
+    protected void resetParameters(){
+        currentTurn = 1;
+        score = 0F;
+        totalTurnTime = 0L;
+    }
+
     public int getCurrentTurn() {
         return currentTurn;
     }
@@ -43,5 +54,24 @@ public enum Players {
         Players[] players= Players.values();
 
         return players[(int)Math.round(Math.random() * (players.length-1))];
+    }
+
+    public Float getScore() {
+        return score;
+    }
+
+    protected void setScore(Float score) {
+        this.score = score;
+    }
+    protected void startTurnTime(){
+        turnStartTime = new Date();
+    }
+
+    protected void endTurnTime(){
+        totalTurnTime += new Date().getTime() - turnStartTime.getTime();
+    }
+
+    protected long getTotalTurnTime() {
+        return totalTurnTime;
     }
 }
