@@ -9,10 +9,10 @@ public enum Players {
     O(2, R.drawable.o);
 
     private final int value, drawable;
+
     private int currentTurn;
     private Float score;
-    private long totalTurnTime;
-    private Date turnStartTime;
+    private long totalTurnTime ,turnStartTime;
 
 
     Players(int value, int drawable) {
@@ -64,11 +64,11 @@ public enum Players {
         this.score = score;
     }
     protected void startTurnTime(){
-        turnStartTime = new Date();
+        turnStartTime = new Date().getTime();
     }
 
     protected void endTurnTime(){
-        totalTurnTime += new Date().getTime() - turnStartTime.getTime();
+        totalTurnTime += new Date().getTime() - turnStartTime;
     }
 
     protected long getTotalTurnTime() {

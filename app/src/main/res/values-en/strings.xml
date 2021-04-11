@@ -7,4 +7,6 @@
     <string name="current_turn">%d turn</string>
     <string name="game_draw">Game ended in a draw!!!</string>
     <string name="game_finished">%s won the game with score %.4f!!!</string>
+    <string name="restart_button">New Game</string>
+    <string name="end_button">Finish Game</string>
 </resources>

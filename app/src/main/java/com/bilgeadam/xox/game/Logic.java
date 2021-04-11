@@ -20,8 +20,15 @@ public class Logic implements Serializable {
         Players.X.resetParameters();
         Players.O.resetParameters();
 
-
     }
+
+    /**
+     * Process current tyrn to decide next action
+     * @param x - Horizontal location clicked
+     * @param y - Vertical location clicked
+     * @return The state of the game
+     */
+
     public GameState processTurn(int x, int y){
         Log.i(this.getClass().getSimpleName(), String.format("Process turn for x:%d y:%d",x,y));
 
@@ -52,7 +59,7 @@ public class Logic implements Serializable {
 
     }
 
-    private boolean checkStraight(int row, int column, boolean isRowCheck){
+    private boolean checkStraight(int row, int column, final boolean isRowCheck){
         if (row >= board.length || column >= board.length)
             return true;
         else if (board[row][column] != currentPlayer.getValue())
@@ -61,7 +68,7 @@ public class Logic implements Serializable {
             return isRowCheck ? checkStraight(row, column+1, true) : checkStraight(row+1, column, false);
     }
 
-    private boolean checkCross(int row, int column, boolean isSameElementCheck){
+    private boolean checkCross(int row, int column, final boolean isSameElementCheck){
         if (row >= board.length || column >= board.length)
             return true;
         else if (board[row][column] != currentPlayer.getValue())

@@ -15,12 +15,13 @@ import com.bilgeadam.xox.game.Logic;
 import java.util.Optional;
 
 public class WelcomeActivity extends AppCompatActivity {
-
     private Animations animations;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         animations = new Animations();
+
         setContentView(R.layout.activity_welcome);
     }
 
